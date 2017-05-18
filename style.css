@@ -1,0 +1,79 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+alignright {
+    float: right;
+    margin-left: 15px;
+}
+aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+}    
+body {
+    line-height: 1.7;
+    
+}
+a:hover {
+    text-decoration: none;
+}
+.section-padding {
+    padding: 80px 0;
+}
+.section-contain {
+    margin-bottom: 60px;
+}
+.section-contain h3 {
+    font-weight: 700;
+    font-size: 30px;
+}
+.single-profile-item img {
+    border: 2px solid #e7e7e7;
+}
+.social-icon {
+    background-color: #5ba939;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: -20px;
+    padding: 2px;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+.social-icon a {
+    border: 1px solid;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    height: 27px;
+    line-height: 26px;
+    margin: 3px;
+    width: 28px;
+}
+.single-profile-item h4 {
+    font-weight: 700;
+    margin-top: 22px;
+    text-align: center;
+}
+.single-profile-item h4 span {
+    color: #5ba939;
+    display: block;
+    font-size: 80%;
+    font-weight: 300;
+    margin-top: 6px;
+}
